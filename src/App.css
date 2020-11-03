@@ -1,0 +1,39 @@
+header {
+  background: #000;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  padding: 20px;
+}
+
+header nav a:hover{
+  color: #f00;
+}
+
+main{
+  width: 60%;
+  margin: 100px auto;
+}
+
+.App li{
+  list-style-type: none;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery div{
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.active {
+  color: #f00;
+}
